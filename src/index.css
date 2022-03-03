@@ -1,0 +1,209 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+}
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+}
+
+h4 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1rem;
+  padding-left: 0.5rem;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+b {
+  padding-left: 0.3rem;
+}
+
+/* unvisited link */
+a:link {
+  color: #7C99AC;
+}
+
+/* visited link */
+a:visited {
+  color: #92A9BD;
+}
+
+/* mouse over link */
+a:hover {
+  color: #1C6DD0;
+}
+
+/* selected link */
+a:active {
+  color: #35589A;
+}
+
+/* Home page */
+.app {
+background-color: #f0f1f8;
+}
+
+.heading {
+  font-size: 2.5rem;
+}
+
+.home-lead {
+  font-size: 1rem;
+}
+
+/* Images */
+.img {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+
+.home-img {
+  background-image: url("https://images.unsplash.com/photo-1508672019048-805c876b67e2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjZ8fHlvZ2F8ZW58MHx8MHx8&auto=format&fit=crop&w=1400&q=60");
+}
+
+.home-img-1 {
+  background-image: url("https://images.unsplash.com/photo-1593810451056-0acc1fad48c5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80");
+}
+
+.home-img-2 {
+  background-image: url("https://images.unsplash.com/photo-1611073615452-4889cb93422e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80");
+}
+
+.home-img-3 {
+  background-image: url("https://images.unsplash.com/photo-1593810450967-f9c42742e326?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80");
+}
+
+.home-img-4 {
+  background-image: url("https://images.unsplash.com/photo-1593811167526-0ead6c92273b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80");
+ 
+}
+
+.home-img-5 {
+  background-image: url("https://images.unsplash.com/photo-1593810451137-5dc55105dace?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80");
+ 
+}
+
+.home-link-1 {
+  background-color: #FEFBF3;
+  border-radius: 2em;
+  text-decoration:none;
+  text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+  padding:0.6em 2.4em;
+
+}
+
+.home-link-2 {
+  background-color: #F8F0DF;
+  border-radius: 2em;
+  text-decoration:none;
+  text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+  padding:0.6em 2.4em;
+}
+
+.home-hr {
+  background-color: #FEFBF3;
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #9D9D9D;
+  border-width: 8px;
+  width: 5%;
+  margin: 0 auto;;
+}
+
+.home-imgs {
+  height: 8rem;
+  border-radius: 50%;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #e5e5f3;
+}
+
+/* Collapses */
+
+.tabs {
+  background-color: #e5e5f3;
+
+
+}
+
+strong {
+  text-decoration: underline;
+  text-underline-offset: 0.08em;
+  color: #182361;
+}
+
+.card {
+  text-align: left;
+}
+
+/* Yoga */
+
+.yoga-desc {
+  font-size: 0.9rem;
+  text-align: justify;
+  padding: 1rem;
+}
+
+.yoga-price {
+  font-size: 0.9rem;
+
+}
+
+/* Timetable */
+
+.timetable {
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+th {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Massage */
+.mass-desc {
+  font-size: 0.9rem;
+  text-align: justify;
+  padding: 1rem;
+}
+
+.mass-price {
+  font-size: 0.9rem;
+  padding: 0.3rem 1rem;
+}
+
+/* Payment */
+.bank-desc {
+  font-size: 0.9rem;
+  padding: 1rem;
+}
+
+/* Footer */
+
+.footer {
+  background-color: #e5e5f3;
+}
+
+
+
